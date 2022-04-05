@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(26, 24, 24);
+    height: 80px;
+}
+.container-grid{
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Lexend Zetta', sans-serif;
+    font-size: 20px;
+}
+.menu{
+    width: 660px;
+    display: flex;
+    justify-content: space-between;
+}
+.banner{
+    height: 600px;
+    background-image: url(../img/Banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10%;
+}
+.texto-banner{
+    color: white;
+    font-size: 20px;
+}
+.posicao-texto{
+    justify-content: flex-end;
+    position: relative;
+    
+}
+.texto-banner h1{
+    font-family: 'Days One', sans-serif;;
+    font-weight: bold;
+}
+.texto-banner p{
+    position: relative;
+    left: 100px;
+    top: 5px;
+    font-weight: bold;
+    font-family: 'Lexend Zetta', sans-serif;
+}
+.texto-banner a{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-family: 'Lexend Zetta', sans-serif;
+    position: relative;
+    left: 160px;
+    top: 40px;
+    text-decoration: none;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 5px;
+}
+.secao-jogos{
+    background-color: rgb(0, 0, 0);
+}
+.jogos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.jogos img{
+    width: 150px;
+}
+.secao-sobre{
+    background-image: url(../img/cod.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.texto-sobre{
+    color: white;
+    font-family: 'Days One', sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.barras{
+    width: 40px;
+    display: none;
+}
+.secao-equipamentos{
+    background-color: rgb(0, 0, 0);
+}
+.equipamentos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.equipamentos img{
+    width: 450px;
+}
+.secao-noticias{
+    background-color: rgb(26, 24, 24);
+    padding: 30px;
+}
+.secao-noticias .container{
+    display: flex;
+    justify-content: space-between;
+}
+.bloco-noticias{
+    width: 70%;
+    height: 90%;
+    color: white;
+}
+.bloco-noticias h2{
+    font-size: 40px;
+}
+.content-new{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    left: 20%;
+    justify-content: center;
+    margin-top: 25px;
+}
+.cardnews{
+    width: 215px;
+    height: 333px;
+    color: white;
+    margin-bottom: 32px;
+    background: var(--gradient);
+    box-shadow: 0px 0px 10px black, 0px 0px 30px black;
+}
+.cardnews h3{
+    font-size: 16px;
+    padding-top: 5px;
+    padding-left: 50px;
+}
+.cardnews p{
+    font-size: 16px;
+    padding-left: 16px;
+}
+footer{
+    background-color: black;
+    
+}
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+.links{
+    color: white;
+}
+.linsks h2{
+    font-size: 24px;
+}
+.links a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.links-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+.logo-rodape{
+    width: 300px;    
+}
+.sociais{
+    color: white;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.sociais form{
+    display: flex;
+    margin-bottom: 8px;
+}
+.sociais input[type="email"]{
+    height: 37px;
+    width: 195px;
+}
+.sociais input[type="email"]::placeholder{
+    color: #BBB383;
+    font-weight: bold;
+}
+button{
+    width: 10px;
+    color: white;
+    background-color: #1baace;
+    border: none;
+    font-size: 18px;
+}
+.siga-nos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2px;
+}
+@media screen and (max-width: 1200px){
+    .container-grid{
+        width: 90%;
+    }
+    .menu a{
+        font-size: 16px;
+    }
+    .logo{
+        width: 300px;
+    }
+}
+@media screen and (max-width: 768px) {
+    h1{
+        color: blue;
+    }
+    .barras{
+        display: inline-block;
+    }
+    .posicionamento-header{
+        position: relative;
+    }
+    .menu{
+        display: none;
+        flex-direction: column;
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        top: 0;
+        right: 60;
+    }
+    .menu a{
+        text-align: center;
+        padding: 15px;
+    }
+    .menu-ativo{
+        display: flex;
+    }
+}
