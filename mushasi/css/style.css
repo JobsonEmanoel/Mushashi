@@ -64,7 +64,7 @@ header{
     left: 160px;
     top: 40px;
     text-decoration: none;
-    background-color: aqua;
+    background-color: rgb(41, 187, 187);
     padding: 10px;
     border-radius: 5px;
 }
@@ -196,7 +196,7 @@ footer{
     font-weight: bold;
 }
 button{
-    width: 10px;
+    width: 100px;
     color: white;
     background-color: #1baace;
     border: none;

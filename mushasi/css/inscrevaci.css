@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, p {
+  color: #FFFFFF;
+}
+
+header {
+  background-color: rgb(26, 24, 24);
+  height: 100%;
+  margin: auto;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.menu a{
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+.menu{
+
+  /* NEW */
+
+  margin-right: 3%;
+
+}
+  
+
+  .container-grid {
+    max-width: 1280px;
+
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* FORMULÁRIO */
+
+  body{
+    background-image: url(../img/Banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  form {
+    background-color: #2c2d30;
+    padding: 10px;
+    max-width: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+  }
+  form input[type=text], form input[type=password]{
+    width: 100%;
+    height: 30px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    padding-left: 5px;
+    margin: 10px 0px;
+  }
+  form input[type=submit]{
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #000000;
+    border: 0;
+   font-family: 'Poppins', sans-serif;
+   color: #FFFFFF;
+   font-size: 18px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   transition: 1s;
+  }
+
+  form input[type=submit]:focus {
+    outline: 0;
+  }
+
+  form input[type=submit]:hover {
+    background-color: #1f6dff ;
+    transition: 1s;
+  }
+  
+  h3 {
+    color: #e6f0ff;
+    font-family: 'Poppins', sans-serif;
+
+  }
+  
+  .cadastre-se {
+    color: #e6f0ff;
+    font-family: 'Poppins', sans-serif;
+    size: 30px;
+  }
+  
+  .cadastro-flex{
+    display: flex;
+    justify-content: space-between;
+  }
